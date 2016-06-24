@@ -97,7 +97,7 @@ header button{
 .checkbox label:before {top: 1.4px;border-radius: 3px;transition: border 0.2s linear 0s, color 0.2s linear 0s;}
 .checkbox label:after {display: inline-block;border-radius: 3px;width: 16px;height: 16px;position: absolute;left: 1px;top: 1px;font-size: 11px;transition: border 0.2s linear 0s, color 0.2s linear 0s;}
 .checkbox input[type=checkbox][disabled] + label:before {background-color: #eceff3;}
-.checkbox input[type=checkbox]:checked + label:after {content: "";background:url(/show_sequence_columns_easy_ok/static/src/img/icons/ui-icons_ffffff_256x240.png) no-repeat; background-position: -64px -145px;color: #fff;}
+.checkbox input[type=checkbox]:checked + label:after {content: "";background:url(/dynamic_list_view/static/src/img/icons/ui-icons_ffffff_256x240.png) no-repeat; background-position: -64px -145px;color: #fff;}
 
 .checkbox[shape="checkbox-circle"] label:before{border-radius:100% 100%;-webkit-border-radius: 100% 100%;-moz-border-radius: 100% 100%}
 

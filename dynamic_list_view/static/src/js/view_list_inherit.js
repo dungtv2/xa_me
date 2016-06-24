@@ -1,4 +1,4 @@
-odoo.define('show_sequence_columns_easy_ok.my_list_view', function (require) {
+odoo.define('dynamic_list_view.my_list_view', function (require) {
 "use strict";
     var core = require('web.core');
     var ListView = require('web.ListView');
@@ -46,7 +46,7 @@ odoo.define('show_sequence_columns_easy_ok.my_list_view', function (require) {
             var self = this;
             if (this.fields_view.type == 'tree' && typeof(this.result) != 'undefined'){
                 var Show_Field = new Model('show.fields');
-                QWeb.add_template("/show_sequence_columns_easy_ok/static/src/xml/my_control.xml");
+                QWeb.add_template("/dynamic_list_view/static/src/xml/my_control.xml");
                     String.prototype.replaceAll = function(target, replacement) {return this.split(target).join(replacement); };
                     var data_show_field = this.result.data || {};
                     self.data_show_field = data_show_field;
